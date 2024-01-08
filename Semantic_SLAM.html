@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<!--
+	Website-Shravan Kumar Gulvadi
+	Ref Template: Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+-->
+<html>
+	<head>
+		<title>Semantic SLAM for Drones in a forest environment</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Semantic SLAM for Drones in a forest environment</a></h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="aerial_acrobatics.html">High-speed controlled manoeuvres on an Autonomous Nano-Quadcopter</a></li>
+										<li><a href="Semantic_SLAM.html">Semantic SLAM for Drones in a forest environments</a></li>
+										<li><a href="Autonomy_Stack.html">Autonomy Stack: Control, Planning and SLAM</a></li>
+										<li><a href="Dense_Visual_SLAM_And_Particle_Filter.html">3D Dense Visual SLAM and Particle Filter</a></li>
+										<li><a href="Adaptive_Controller_for_Drones.html">Adaptive Controller for Drones</a></li>
+										<li><a href="Online_Eye-Hand_Calibration_for_Robotic_Arms.html">Online Eye-Hand Calibration for Robotic Arms</a></li>
+										<li><a href="Lizzy.html">Gait Switching Lizard Inspired Robot</a></li>
+									</ul>
+								</li>
+								<li><a href="index.html#Experience">Experience</a></li>
+								<li><a href="index.html#Education">Education</a></li>
+								<li><a href="index.html#Skills">Skills</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<div class="container">
+					</div>
+					<div class="col-8 col-12-medium imp-medium">
+
+						<!-- Content -->
+						<div id="content" style="display: flex; justify-content: center; width: 100%;">
+							<div style="text-align: left;">
+								<ul class="style1" style="list-style-type: disc; padding-left: 20px; margin: 0;">
+									<li><strong>Objective:</strong> Utilize mobile robots like Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) 
+										to prevent forest fires by removing potential fuel in forests. <br> This project was done as part of CMU's 
+										<a href="https://cmuportugal.org/large-scale-collaborative-research-projects/safeforest/">SAFEFOREST initiative</a> </li>
+									<li><strong>Semantic SLAM Pipeline:</strong> Develop a Semantic Simultaneous Localization and Mapping (SLAM) pipeline for UAVs, 
+										integrating semantic segmentation and non-linear optimization<br> for identifying fuel and accurately mapping forest environments.</li>
+									<li><strong>Landmark Modeling and Robot Pose Estimation:</strong> Implement a semantic feature-based pose optimization to refine geometric models 
+										of landmarks (trees)<br> using parameterized cylinder models fitted onto LIDAR point features, while concurrently estimating the robot's pose. Use 
+										a parameterized cylinder model<br> fitted onto LIDAR points through Geometric Least Squares Optimization, enabling pose transformation estimation for
+										robot motion. Accurate pose transformations<br> between consecutive LIDAR sweeps were achieved using various optimization methods like Levenberg-Marquardt,
+										Trust Region Reflective, BFGS, and Nelder-Mead.</li>
+									<li><strong>Optimization Methods Comparison:</strong> Analyze different optimization methods, focusing on iterations, overall time, and real-time application <br> 
+										suitability. Levenberg-Marquardt Method proved most efficient, averaging 0.09s per operation, aligning with a 10 Hz lidar frequency.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Images -->
+				
+					<div id="content" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+						<!-- New Image Container -->
+						
+						<!-- Title with added bottom margin -->
+						<h1 style="font-size: 2.5em; margin-bottom: 1em;"><a href="#">Methodology</a></h1>
+						
+						<div style="text-align: center; margin-bottom: 30px;">
+							<img src="images/semantic_slam_algo.jpg" alt="Description of New Image" style="width: auto; height: auto;">
+						</div>
+					</div>
+				
+				<section id="main" class="wrapper style2">
+				<div style="text-align: center; margin-bottom: 30px;">
+				<h1 style="font-size: 2.5em;"><a href="#">Results</a></h1>
+				
+				<div style="display: flex; justify-content: center; margin-top: 20px;">
+					<img src="images/semantic-slam.gif" alt="First Image" style="max-width: 45%; margin-right: 10px;">
+					<img src="images/slam_after_optimisation.gif" alt="Second Image" style="max-width: 45%;">
+				</div>
+				<div id="content" style="display: flex; justify-content: center; width: 100%;">
+					<div style="text-align: left;">
+						<!-- Image 1 Container -->
+						<div style="position: relative; display: inline-block;">
+							<img src="images/legend1.png" alt="Description of Image 1" style="width: auto; height: auto;">
+							<div style="position: absolute; bottom: 0; left: 0; background-color: rgba(255, 255, 255, 0.7); padding: 5px;">
+								
+							</div>
+						</div>
+				
+						<!-- Image 2 Container -->
+						<div style="position: relative; display: inline-block;">
+							<img src="images/legend2.png" alt="Description of Image 2" style="width: auto; height: auto;">
+							<div style="position: absolute; bottom: 0; left: 0; background-color: rgba(255, 255, 255, 0.7); padding: 5px;">
+								
+							</div>
+						</div>
+					</section>
+					</div>
+				</div>
+								
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Website-Shravan Kumar Gulvadi
+	Ref Template: Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+-->
+<html>
+	<head>
+		<title>Adaptive Controller for Drones</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="index.html">Adaptive Controller for Drones</a></h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="aerial_acrobatics.html">High-speed controlled manoeuvres on an Autonomous Nano-Quadcopter</a></li>
+										<li><a href="Semantic_SLAM.html">Semantic SLAM for Drones in a forest environments</a></li>
+										<li><a href="Autonomy_Stack.html">Autonomy Stack: Control, Planning and SLAM</a></li>
+										<li><a href="Dense_Visual_SLAM_And_Particle_Filter.html">3D Dense Visual SLAM and Particle Filter</a></li>
+										<li><a href="Adaptive_Controller_for_Drones.html">Adaptive Controller for Drones</a></li>
+										<li><a href="Online_Eye-Hand_Calibration_for_Robotic_Arms.html">Online Eye-Hand Calibration for Robotic Arms</a></li>
+										<li><a href="Lizzy.html">Gait Switching Lizard Inspired Robot</a></li>
+									</ul>
+								</li>
+								<li><a href="index.html#Experience">Experience</a></li>
+								<li><a href="index.html#Education">Education</a></li>
+								<li><a href="index.html#Skills">Skills</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<div class="container">
+					</div>
+					<div class="col-8 col-12-medium imp-medium">
+
+						<!-- Content -->
+						<div id="content" style="display: flex; justify-content: center; width: 100%;">
+							<div style="text-align: left;">
+								<body>
+									<div class="container">
+										<h2>Overview:</h2>
+										<p>In the realm of aerial robotics, ensuring stability and safety, especially during unforeseen circumstances, is paramount. Our latest project embodies this commitment to reliability and innovation. 
+											We have meticulously designed an adaptive controller specifically for the DJI Mavic drone, aiming to address and stabilize the drone during critical rotor malfunctions mid-flight.</p>
+
+										<h2>The Challenge:</h2>
+										<p>Rotor malfunctions in drones can lead to catastrophic outcomes, particularly in crucial applications like aerial photography, surveillance, or delivery systems. Recognizing this, our team set out to 
+											develop a solution that not only addresses this issue but does so in a way that is seamless and efficient.</p>
+
+										<h2>Our Solution:</h2>
+										<p>The core of our solution lies in the Model Reference Adaptive Controller (MRAC). This cutting-edge controller dynamically adjusts to varying flight conditions, specifically focusing on scenarios where 
+											a rotor malfunction leads to significant thrust loss. By continuously comparing the drone's performance to a predefined optimal flight model, MRAC makes real-time adjustments to ensure stable flight.</p>
+
+										<h2>Innovative Comparison Approach:</h2>
+										<p>To validate the efficacy of our solution, we conducted a comparative analysis with the Linear Quadratic Regulator (LQR), a standard in drone control mechanisms. This comparison not only highlights the 
+											robustness of MRAC in handling high-stress flight scenarios but also demonstrates its superiority in maintaining stability and control.</p>
+
+										<h2>Key Results:</h2>
+										<p>The adaptive controller has proven its effectiveness in scenarios leading up to a thrust loss of 77% due to rotor malfunction. This level of resilience in maintaining flight stability is a significant 
+											advancement in drone technology.</p>
+
+										<h2>Impact:</h2>
+										<p>Our innovative approach in drone control opens new avenues for the safe and reliable use of drones in various applications. Whether it's for commercial delivery, aerial photography, or critical surveillance, 
+											our adaptive controller ensures that drones remain stable and functional, even in the most challenging conditions.</p>
+									</div>
+								</body>
+							</div>
+						</div>
+					</div>
+				</section>
+								
+					<!-- Videos Section -->
+					<div style="display: flex; justify-content: center; width: 100%;">
+						<!-- Video 1 -->
+						<div style="text-align: center; margin-right: 30px;">
+							<h3 style="margin-bottom: 1em;">LQR Controller</h3>
+							<video width="640" height="360" controls>
+								<source src="images/Drone_project_without adaptive.mp4" type="video/mp4">
+								
+							</video>
+						</div>
+	
+						<!-- Video 2 -->
+						<div style="text-align: center;">
+							<h3 style="margin-bottom: 1em;">MRAC Controller</h3>
+							<video width="640" height="360" controls>
+								<source src="images/Drone_project_adaptive.mp4" type="video/mp4">
+								
+							</video>
+						</div>
+					</div>
+					
+											
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

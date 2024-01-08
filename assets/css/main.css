@@ -2106,6 +2106,41 @@ input, select, textarea {
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
 		}
+	
+	.uni-logo {
+		position: absolute;
+		top: 10em;
+		right: 13em;
+		width: 250px; /* Adjust the size as needed */
+		height: auto;
+	}
+	.pics-exp {
+		position: absolute;
+		top: 3em;
+		right: -10em;
+		width: 350px; /* Adjust the size as needed */
+		height: auto;
+	}
+	.pics-exp-1 {
+		position: absolute;
+		top: 3em;
+		right: -5em;
+		width: 220px; /* Adjust the size as needed */
+		height: auto;
+	}
+	.pics-exp-2 {
+		position: absolute;
+		top: 6em;
+		right: -10em;
+		width: 350px; /* Adjust the size as needed */
+		height: auto;
+	}
+	.center-image {
+		display: block; /* Images are inline by default, this changes it to block */
+    	margin: 0 auto; /* Auto margin on both sides to center the block */
+    	width: 20%; /* Adjust this as needed */
+    	height: auto; /* Keeps the aspect ratio of the image */
+	}
 
 /* Nav */
 

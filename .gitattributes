@@ -1,0 +1,2 @@
+. filter=lfs diff=lfs merge=lfs -text
+images/lizzy_early_test.MOV filter=lfs diff=lfs merge=lfs -text

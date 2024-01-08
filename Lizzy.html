@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<!--
+	Website-Shravan Kumar Gulvadi
+	Ref Template: Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+-->
+<html>
+	<head>
+		<title>Gait Switching Lizard Inspired Robot</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Gait Switching Lizard Inspired Robot</a></h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="aerial_acrobatics.html">High-speed controlled manoeuvres on an Autonomous Nano-Quadcopter</a></li>
+										<li><a href="Semantic_SLAM.html">Semantic SLAM for Drones in a forest environments</a></li>
+										<li><a href="Autonomy_Stack.html">Autonomy Stack: Control, Planning and SLAM</a></li>
+										<li><a href="Dense_Visual_SLAM_And_Particle_Filter.html">3D Dense Visual SLAM and Particle Filter</a></li>
+										<li><a href="Adaptive_Controller_for_Drones.html">Adaptive Controller for Drones</a></li>
+										<li><a href="Online_Eye-Hand_Calibration_for_Robotic_Arms.html">Online Eye-Hand Calibration for Robotic Arms</a></li>
+										<li><a href="Lizzy.html">Gait Switching Lizard Inspired Robot</a></li>
+									</ul>
+								</li>
+								<li><a href="index.html#Experience">Experience</a></li>
+								<li><a href="index.html#Education">Education</a></li>
+								<li><a href="index.html#Skills">Skills</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<div class="container">
+					</div>
+					<div class="col-8 col-12-medium imp-medium">
+
+						<!-- Content -->
+						<div id="content" style="display: flex; justify-content: center; width: 100%;">
+							<div style="text-align: left;">
+								<ul>
+									<li><strong>Research Gap:</strong> Despite extensive research on animal behavior, the tendency of lizards to switch from quadrupedal to bipedal stances while running remains puzzling.</li>
+									<li><strong>Project Purpose:</strong> Investigate variations in energy consumption in lizards transitioning to a bipedal gait before natural rearing occurs.</li>
+									<li><strong>Background:</strong> Prior research indicates that some lizards actively transition to bipedal gaits, but the advantages of this behavior over natural rearing are unclear.</li>
+									<li><strong>Hypothesis:</strong> Lizards might achieve lower energy consumption by initiating active rearing during motion.</li>
+									<li><strong>Experimentation Approach:</strong> Utilize a lizard-inspired robot capable of modeling both passive and active rearing to determine the energetic advantage of active rearing.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				
+				<!-- Video -->
+				
+					<div style="text-align: center;">
+						<h3 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Project Video</a></h3>
+						<video width="640" height="360" autoplay loop controls>
+							<source src="images/lizzy_project_video.mp4" type="video/mp4">
+						</video>
+					</div>
+				</section>
+			
+
+				<section id="main" class="wrapper style2">
+					<div class="container">
+					</div>
+					<div class="col-8 col-12-medium imp-medium">
+						<div style="text-align: center;">
+						<h1 style="font-size: 2.5em; margin-bottom: 1em;"><a href="#">Design of Quadrupedal to Bipedal switching bio-inspired robot</a></h1>
+						<!-- Content -->
+						<div id="content" style="display: flex; justify-content: center; width: 100%;">
+							<div style="text-align: left;">
+								<ul>
+									<li>Co-designed a robot that could switch from quadrupedal to bipedal gait during the run using its tail and trunk, the robot design drew inspiration from<br> 
+										lizards and was used to test multiple research hypotheses.</li>
+									<li>Initial design calculations and experimentation: I did the initial calculation required to base the design on firm mathematical foundations, the calculations<br> 
+										included calculating acceleration requirements for initiating rearing, minimum rpm of the legs required to stabilize the robot and motor selection calculations.<br> 
+										Co-designed experiments and built simple test setups to conduct the experiments to quantify the behavior of Rhex legs and abs motor behavior.  </li>
+									<li>I designed a PD controller to control the tail and stabilize the robot body during rearing and bipedal running, I codesigned the overall control flow of the robot<br> 
+										and also implemented it on an arduino Mega and integrated it with IMU and Dynamixel servo motors. </li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				
+				
+				<!-- Video -->
+				
+					<div style="text-align: center;">
+						<h3 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Test Video: Tail based stabilization system</a></h3>
+						<video width="640" height="360" autoplay loop controls>
+							<source src="images/tail_based_stabilization.MOV" type="video/mp4">
+						</video>
+					</div>
+				</section>
+
+				<section id="main" class="wrapper style2">
+					<div class="container">
+					</div>
+					<div class="col-8 col-12-medium imp-medium">
+						<div style="text-align: center;margin-bottom: 5em;">
+						<h3 style="font-size: 2.5em; margin-bottom: 1em;"><a href="#">Designed of Quadrupedal to Bipedal switching bio-inspired robot</a></h3>
+						<!-- Content -->
+						<div id="content" style="display: flex; justify-content: center; width: 100%;">
+							<div style="text-align: left;">
+								<ul>
+									<li><strong>Control Architecture:</strong> Features separate designs for two operation modes: passive and active.
+										<ul>
+											<li><strong>Passive Mode:</strong> The robot rears using reaction torque and inertia without actuation, where the tail is used only for stabilizing posture.</li>
+											<li><strong>Active Transition Phase:</strong> Involves sequential actuation of the 'Abs' motor to lift the front wheels, a solenoid to trigger rearing,<br> 
+												and the tail for executing the rearing motion.</li>
+										</ul>
+									</li>
+									<li><strong>Stabilization in Both Modes:</strong> Uses the tail for stabilization in both active and passive rearing modes, preventing toppling.</li>
+									<li><strong>Proportional-Derivative Controller:</strong> A current IMU reading is compared against a preset target rearing angle, and the tail is actuated based on the error calculation.</li>
+									<li><strong>Tail Motion Range:</strong> The tail's range of motion is limited to 130°, preventing it from hitting the ground or the robot's circuitry, while ensuring adequate stabilization.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				<!-- Video -->
+				
+				
+					<div style="text-align: center;margin-bottom: 5em;">
+						<h3 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Early Testing of legged motion</a></h3>
+						<video width="640" height="360" autoplay loop controls>
+							<source src="images/lizzy_early_test.MOV" type="video/mp4">
+						</video>
+					</div>
+				
+
+				<!-- Video -->
+				
+					<div style="text-align: center;margin-bottom: 5em;">
+						<h3 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Leg Actuator test</a></h3>
+						<video width="640" height="360" autoplay loop controls>
+							<source src="images/lizzy_leg_actuator_test.mp4" type="video/mp4">
+						</video>
+					</div>
+				
+
+				<!-- Video -->
+				
+					<div style="text-align: center;margin-bottom: 5em;">
+						<h3 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Tail assisted rearing test</a></h3>
+						<video width="640" height="360" autoplay loop controls>
+							<source src="images/tail_assisted_rearing.mov" type="video/mp4">
+						</video>
+					</div>
+			</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
