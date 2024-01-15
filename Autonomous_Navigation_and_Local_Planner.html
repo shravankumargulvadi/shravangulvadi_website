@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Website-Shravan Kumar Gulvadi
+	Ref Template: Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+-->
+<html>
+	<head>
+		<title>Autonomous Navigation And Local Planner for JetRacer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Autonomous Navigation And Local Planner for JetRacer</h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="aerial_acrobatics.html">High-speed controlled manoeuvres on an Autonomous Nano-Quadcopter</a></li>
+										<li><a href="Semantic_SLAM.html">Semantic SLAM for Drones in a forest environments</a></li>
+										<li><a href="Autonomy_Stack.html">Autonomy Stack: Control, Planning and SLAM</a></li>
+										<li><a href="Dense_Visual_SLAM_And_Particle_Filter.html">3D Dense Visual SLAM and Particle Filter</a></li>
+										<li><a href="Adaptive_Controller_for_Drones.html">Adaptive Controller for Drones</a></li>
+										<li><a href="Online_Eye-Hand_Calibration_for_Robotic_Arms.html">Online Eye-Hand Calibration for Robotic Arms</a></li>
+										<li><a href="Lizzy.html">Gait Switching Lizard Inspired Robot</a></li>
+										<li><a href="Autonomous_Navigation_and_Local_Planner.html">Autonomous Navigation And Local Planner for JetRacer</a></li>
+									</ul>
+								</li>
+								<li><a href="index.html#Experience">Experience</a></li>
+								<li><a href="index.html#Education">Education</a></li>
+								<li><a href="index.html#Skills">Skills</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+			<section id="main" class="wrapper style2">
+				<div class="col-8 col-12-medium imp-medium">
+					<!-- Content -->
+					<div id="content" style="display: flex; justify-content: center; flex-direction: column; width: 100%;">
+						<div class="container">
+							<h2>Overview:</h2>
+							<p>As part of a hands-on exploration in robotics, I successfully assembled a JetRacer robot and advanced it into a sophisticated autonomous navigator. This project involved mechanical assembly, 
+								integration of ROS navigation stack and development of a custom State Lattice based local planner for the robot.</p>
+							<h2>Autonomous Navigation and Mapping:</h2>
+							<p>The video shows the Monte-Carlo Localization and Mapping algorithm in action. The algorithm uses the output of the RP lidar and the onboard IMU to localize the robot and map the environment.
+								This task showcased the robot's ability to understand and interact with its environment autonomously. A key task in the project was the development of the state-lattice based local planner using the kinematic bicycle model of the JetRacer. 
+								This custom planner, crucial for the robot's decision-making, works in conjunction with the A* global planner. The A* planner utilizes the mapped environment to autonomously navigate the robot to its goal position.
+								While the local planner helps the robot avoid any dynamic obstacles while reaching the waypoints of the global planner.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Video -->
+			<div style="text-align: center; margin-top: 20px">
+				<h1 style="font-size: 1.5em; margin-bottom: 1em;">Autonomous Navigation</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/upp898ADzt0?si=q0kbJNcvhAPJ_69T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<!-- Images -->
+			<div style="text-align: center; margin-top: 20px;">
+				<h1 style="font-size: 1.5em; margin-bottom: 1em;">State Lattice Visualization</h1>
+			</div>
+			<div style="display: flex; justify-content: center;">
+				<img src="images/lattice_planner.jpg" alt="First Image" style="max-width: 15%;">
+			</div>
+						
+											
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
