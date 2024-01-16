@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Semantic SLAM for Drones in a forest environment</title>
+		<title>Mechatronic Design: High-Precision Rotary Assembly</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<h1>Semantic SLAM for Drones in a forest environment</a></h1>
+							<h1>Mechatronic Design: High-Precision Rotary Assembly</a></h1>
 						</div>
 
 					<!-- Nav -->
@@ -56,20 +56,18 @@
 
 						<!-- Content -->
 						<div id="content" style="display: flex; justify-content: center; width: 100%;">
-							<div style="text-align: left;">
+							<div style="max-width: 800px; margin: auto; text-align: left;">
 								<ul class="style1" style="list-style-type: disc; padding-left: 20px; margin: 0;">
-									<li><strong>Objective:</strong> Utilize mobile robots like Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) 
-										to prevent forest fires by removing potential fuel in forests. <br> This project was done as part of CMU's 
-										<a href="https://cmuportugal.org/large-scale-collaborative-research-projects/safeforest/">SAFEFOREST initiative</a> </li>
-									<li><strong>Semantic SLAM Pipeline:</strong> Develop a Semantic Simultaneous Localization and Mapping (SLAM) pipeline for UAVs, 
-										integrating semantic segmentation and non-linear optimization<br> for identifying fuel and accurately mapping forest environments.</li>
-									<li><strong>Landmark Modeling and Robot Pose Estimation:</strong> Implement a semantic feature-based pose optimization to refine geometric models 
-										of landmarks (trees)<br> using parameterized cylinder models fitted onto LIDAR point features, while concurrently estimating the robot's pose. Use 
-										a parameterized cylinder model<br> fitted onto LIDAR points through Geometric Least Squares Optimization, enabling pose transformation estimation for
-										robot motion. Accurate pose transformations<br> between consecutive LIDAR sweeps were achieved using various optimization methods like Levenberg-Marquardt,
-										Trust Region Reflective, BFGS, and Nelder-Mead.</li>
-									<li><strong>Optimization Methods Comparison:</strong> Analyze different optimization methods, focusing on iterations, overall time, and real-time application <br> 
-										suitability. Levenberg-Marquardt Method proved most efficient, averaging 0.09s per operation, aligning with a 10 Hz lidar frequency.</li>
+									<li><strong>Objective:</strong> The challenge was to design a High Precision Rotary assembly from Scratch to Production-ready in three days.</li>
+									<li><strong>Design process:</strong>
+										<p>The workflow began with the critical task of estimating torque requirements, which formed the basis for selecting an appropriate motor and gearbox. The goal was to meet the performance demands of the application with precision.</p>
+										<p>Following the selection, the output torque was calculated to confirm its adequacy. If found inadequate, the starting torque and friction torque were updated to optimize the system.</p>
+										<p>Attention was then given to mechanical integration, focusing on selecting a gearbox in line with the shaft diameter, leading to the meticulous design of the shaft itself.</p>
+										<p>Subsequently, bearings were chosen to support the shaft and facilitate smooth rotation, a key factor in reducing friction and enhancing the assembly's longevity.</p>
+										<p>The final stages included the design of custom parts, system integration, and a comprehensive design validation process. This ensured that the assembly performed flawlessly under real-world conditions.</p>
+										<p>Throughout this process, any issues encountered led to a revisitation of earlier steps, enabling iterative refinements. This dynamic and flexible approach was pivotal in achieving a robust design within a constrained three-day period.</p>
+									</li>
+									<li> <strong><a href="https://drive.google.com/file/d/1CdGb31gtmP5D4VcFPpnox_hdcnyJ9VbF/view">Check Full Project Report Here</a></strong></li>
 								</ul>
 							</div>
 						</div>
@@ -81,39 +79,35 @@
 						<!-- New Image Container -->
 						
 						<!-- Title with added bottom margin -->
-						<h1 style="font-size: 2.5em; margin-bottom: 1em;"><a href="#">Methodology</a></h1>
+						<h1 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Methodology</a></h1>
 						
 						<div style="text-align: center; margin-bottom: 30px;">
-							<img src="images/semantic_slam_algo.jpg" alt="Description of New Image" style="width: auto; height: auto;">
+							<img src="images/mech_design_process.jpg" alt="Description of New Image" style="width: auto; height: auto;">
 						</div>
 					</div>
 				
 				<section id="main" class="wrapper style2">
 				<div style="text-align: center; margin-bottom: 30px;">
-				<h1 style="font-size: 2.5em;"><a href="#">Results</a></h1>
+				<h1 style="font-size: 1.5em;">Engineering Drawing Samples</h1>
 				
 				<div style="display: flex; justify-content: center; margin-top: 20px;">
-					<img src="images/semantic-slam.gif" alt="First Image" style="max-width: 45%; margin-right: 10px;">
-					<img src="images/slam_after_optimisation.gif" alt="Second Image" style="max-width: 45%;">
+					<img src="images/mech_assembly.jpg" alt="First Image" style="max-width: 45%; margin-right: 10px;">
+					<img src="images/mech_Motor_mounting_plate.jpg" alt="Second Image" style="max-width: 45%;">
 				</div>
-				<div id="content" style="display: flex; justify-content: center; width: 100%;">
-					<div style="text-align: left;">
-						<!-- Image 1 Container -->
-						<div style="position: relative; display: inline-block;">
-							<img src="images/legend1.png" alt="Description of Image 1" style="width: auto; height: auto;">
-							<div style="position: absolute; bottom: 0; left: 0; background-color: rgba(255, 255, 255, 0.7); padding: 5px;">
-								
-							</div>
-						</div>
-				
-						<!-- Image 2 Container -->
-						<div style="position: relative; display: inline-block;">
-							<img src="images/legend2.png" alt="Description of Image 2" style="width: auto; height: auto;">
-							<div style="position: absolute; bottom: 0; left: 0; background-color: rgba(255, 255, 255, 0.7); padding: 5px;">
-								
-							</div>
-						</div>
-					</section>
+			</section>
+			<section id="main" class="wrapper style2">
+				<div id="content" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+					<!-- New Image Container -->
+					
+					<!-- Title with added bottom margin -->
+					<h1 style="font-size: 1.5em; margin-bottom: 1em;"><a href="#">Failure Analysis</a></h1>
+					
+					<div style="text-align: center; margin-bottom: 30px;">
+						<img src="images/mech_rpn.jpg" alt="Description of New Image" style="width: auto; height: auto;">
+					</div>
+				</div>
+			</section>
+					
 					</div>
 				</div>
 								
