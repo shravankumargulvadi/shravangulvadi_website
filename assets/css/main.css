@@ -2295,6 +2295,9 @@ input, select, textarea {
 
 	#highlights .highlight {
 		text-align: center;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
 	}
 
 		#highlights .highlight h3 {
@@ -2302,6 +2305,16 @@ input, select, textarea {
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
+		}
+
+		#highlights .highlight .actions {
+			margin-top: auto;
+			padding-top: 1.5em;
+		}
+
+		#highlights .highlight-cta {
+			display: block;
+			margin-top: 1.5em;
 		}
 
 /* Main */
